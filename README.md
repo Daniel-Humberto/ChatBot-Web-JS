@@ -35,12 +35,12 @@ Este es un chatbot basado en reglas y jerárquias desarrollado para interactuar 
 
 ---
 
-## Licencia
-Este proyecto está bajo la licencia GNU General Public License v3.0
+## Contacto
+Si tienes preguntas o sugerencias no dudes en contáctarme
 
 ---
 
-## Contacto
-Si tienes preguntas o sugerencias no dudes en contáctarme
+## Licencia
+Este proyecto está bajo la licencia GNU General Public License v3.0
 
 ---
