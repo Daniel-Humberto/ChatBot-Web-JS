@@ -41,6 +41,6 @@ Si tienes preguntas o sugerencias no dudes en contáctarme
 ---
 
 ## Licencia
-Este proyecto está bajo la licencia GNU General Public License v3.0
+Este proyecto está licenciado bajo la [Licencia GNU](LICENSE).
 
 ---
