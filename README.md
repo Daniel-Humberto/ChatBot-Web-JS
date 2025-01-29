@@ -19,8 +19,8 @@ Este es un chatbot basado en reglas desarrollado para interactuar con los usuari
 - El chatbot puede usar una base de datos.
 
 ## Licencia
-Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
+Este proyecto está bajo la licencia GNU General Public License v3.0
 
 ## Contacto
-Si tienes preguntas o sugerencias, contáctame en [tu correo o redes sociales].
+Si tienes preguntas o sugerencias, contáctame
 
