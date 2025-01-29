@@ -1,0 +1,224 @@
+/* Reset y ajustes base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor Principal */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+/* Contenedor Principal */
+.container {
+  width: 100%;
+  max-width: 1000px;
+  height: 90vh;
+  max-height: 700px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  background: #202020;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Título */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+/* Botón */
+.chat {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  border: 2px solid #121212;
+  border-radius: 5px;
+  background: #121212;
+  margin-bottom: 1rem;
+}
+
+/* Mensajes */
+.message {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* User */
+.user {
+  justify-content: flex-end;
+}
+
+/* Bot */
+.bot {
+  justify-content: flex-start;
+}
+
+/* Avatar */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-size: cover;
+}
+
+/* Texto */
+.text {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+/* User Texto */
+.user .text {
+  background: #202020;
+}
+
+/* Bot Texto */
+.bot .text {
+  background: #202020;
+}
+
+/* Input y botón */
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Ajustar ancho del input y el botón */
+.input, .button {
+  flex: 1; 
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Input */
+.input {
+  border: 1px solid #ffffff;
+  font-size: 1rem;
+}
+
+/* Input: Foco */
+.input:focus {
+  border-color: #ffffff;
+}
+
+/* Botón */
+.button {
+  padding: 10px; 
+  background: #000000;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Botón: Hover */
+.button:hover {
+  box-shadow: inset 0 0 10px rgba(125, 125, 125, 0.2);
+}
+
+/* Estilos Scrollbar */
+.chat::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Estilos Scrollbar */
+.chat::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+
+/* Estilos Responsive */
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 95%;
+    height: 90vh;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .input, .button {
+    height: 45px;
+  }
+}
+
+/* Estilos Responsive */
+@media screen and (max-width: 768px) {
+  .main-content {
+    margin-left: 80px;
+  }
+
+  .input-container {
+    flex-direction: column;
+  }
+
+  .button {
+    font-size: 1rem;
+    
+  }
+
+  .chat {
+    padding: 8px;
+  }
+}
+
+/* Estilos Responsive */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    border-radius: 0;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .chat {
+    max-height: 65vh;
+    padding: 8px;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .input {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .button {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.9rem;
+    
+  }
+}
