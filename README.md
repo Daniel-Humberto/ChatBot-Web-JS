@@ -1,10 +1,10 @@
-# Chatbot Web Basado en Reglas
+# 🤖 Chatbot Web Basado en Reglas
 ![Imagen 1](Imagenes/1.png)
 
 ---
 
-## Características
-Este es un chatbot basado en reglas y jerárquias desarrollado para interactuar con los usuarios a través de una interfaz web. Utiliza un sistema de navegación de menús jerárquicos para responder preguntas y guiar a los usuarios a la información que necesitan.
+## ✨ Características
+Este es un chatbot basado en reglas y jerarquías desarrollado para interactuar con los usuarios a través de una interfaz web. Utiliza un sistema de navegación de menús jerárquicos para responder preguntas y guiar a los usuarios a la información que necesitan.
 
 - **Interfaz web interactiva** desarrollada con HTML, CSS y JavaScript.
 - **Sistema de reglas predefinidas** para gestionar respuestas automáticas.
@@ -13,21 +13,21 @@ Este es un chatbot basado en reglas y jerárquias desarrollado para interactuar 
 
 ---
 
-## Uso
+## 🧭 Uso
 1. Abre el chatbot en tu navegador.
 2. Sigue las instrucciones en pantalla y selecciona opciones para navegar entre los menús.
 3. Recibe respuestas automáticas basadas en las reglas predefinidas.
 
 ---
 
-## Personalización
-- Se pueden agregar nuevas reglas y jerarquias gracias a su diseño modular.
-- Es posible modificar el diseño y la interfaz con el archivos CSS.
+## 🛠️ Personalización
+- Se pueden agregar nuevas reglas y jerarquías gracias a su diseño modular.
+- Es posible modificar el diseño y la interfaz con el archivo CSS.
 - El chatbot puede utilizar una base de datos SQL.
 
 ---
 
-## Imagenes
+## 🖼️ Imágenes
 
 ![Imagen 2](Imagenes/2.png)
 
@@ -35,18 +35,18 @@ Este es un chatbot basado en reglas y jerárquias desarrollado para interactuar 
 
 ---
 
-##  Demo en línea
+## 🌐 Demo en línea
 
 https://codepen.io/Daniel-Humberto/pen/wBwVweQ
 
 ---
 
-## Contacto
-Si tienes preguntas o sugerencias no dudes en contáctarme
+## 📬 Contacto
+Si tienes preguntas o sugerencias no dudes en contactarme.
 
 ---
 
-## Licencia
+## 📝 Licencia
 Este proyecto está licenciado bajo la [Licencia GNU](LICENSE).
 
 ---
