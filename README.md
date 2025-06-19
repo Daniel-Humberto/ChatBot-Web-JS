@@ -41,11 +41,6 @@ https://codepen.io/Daniel-Humberto/pen/wBwVweQ
 
 ---
 
-## 📬 Contacto
-Si tienes preguntas o sugerencias no dudes en contactarme.
-
----
-
 ## 📝 Licencia
 Este proyecto está licenciado bajo la [Licencia GNU](LICENSE).
 
